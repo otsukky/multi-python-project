@@ -9,7 +9,7 @@ uvを使ったモノレポ構成お試しリポジトリ
 1. `mkdir フォルダ名 | cd フォルダ名`
 2. `uv init -p pythonバージョン --no-readme`
 3. `uv add ruff===0.14.4`
-4. `touch .gitignore`
+4. `touch .gitignore`(git管理から外したいファイルを記載)
 5. 作成したフォルダ内のpyproject.tomlに共通のruff設定を通す
 ```toml
 [tool.ruff]
