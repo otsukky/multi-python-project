@@ -16,3 +16,4 @@ uvを使ったモノレポ構成お試しリポジトリ
 extend = "../config/ruff.toml"
 ```
 6. `mkdir フォルダ名/.vscode | touch フォルダ名/.vscode/settings.json`
+7. `multi-python-project.code-workspace > folders`にフォルダ名を追加
